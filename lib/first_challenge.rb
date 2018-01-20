@@ -1,8 +1,8 @@
-require 'pry'
+# require 'pry'
 
 def first_challenge
 
-  binding.pry
+#  binding.pry
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -18,7 +18,7 @@ def first_challenge
   }
 
   #your code here
-
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
 
   #remember to return your newly altered contacts hash!
   contacts
